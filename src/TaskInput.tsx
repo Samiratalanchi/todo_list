@@ -25,4 +25,3 @@ export default function TaskInput({addTask} : TaskInputProps) {
         </div>
     );
 }
-
