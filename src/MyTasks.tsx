@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Task } from './types/Task.ts';
+import { Task } from '../types/Task.ts';
 import TaskInput from './TaskInput.tsx';
 import TasksList from './TasksList';
 
