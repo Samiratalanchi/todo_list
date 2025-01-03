@@ -40,5 +40,11 @@ export default function MyTasks() {
         setTasks(newTasks);
     }
 
+    return(
+        <div>
+            <TaskInput addTask={addTask} />
+            <TasksList tasks={tasks} toggleTaskDone={toggleTaskDone} deleteTask={deleteTask} />
+        </div>
+    );
 }
 
